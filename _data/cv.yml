@@ -1,11 +1,10 @@
 # Edit this file to update your CV. The layout reads everything from here.
 
 intro: >
-  I'm a systems security researcher focused on reverse engineering and
-  vulnerability research across binaries, firmware, wireless systems, and
-  embedded hardware. I often work on undocumented or unsupported targets and
-  build the tooling needed to analyze them. I've been active in security
-  research and competitions since 2016.
+  I reverse engineer undocumented or unsupported systems, from binaries and
+  firmware to wireless protocols and embedded hardware, building the tooling
+  needed to uncover vulnerabilities. I've been researching and competing in
+  security since 2016.
 
 domains:
   - name: Reverse Engineering
@@ -32,10 +31,10 @@ work:
     period: 2020 - present
     notes:
       - Lead technical research across vulnerability discovery, wireless systems, and embedded hardware
-      - Conduct private zero-day and exploit research across binaries, firmware, Windows, and Android
+      - Conduct private zero-day and exploit research spanning binaries, firmware, Windows, and Android
       - Build end-to-end research environments for undocumented wireless systems, from raw signal and PHY-layer analysis through protocol-state reconstruction
-      - Build FPGA/RTL prototypes around open-source soft-core SoCs and extensively modified digital interface IP to validate hypotheses
-      - Participate in cyber defense exercises, including Locked Shields (DFIR), and author challenges for major security competitions
+      - Develop FPGA/RTL prototypes incorporating extensively modified digital interface IP for hypothesis validation
+      - Participate in cyber defense exercises (including Locked Shields, DFIR track) and author challenges for major security competitions
 
 education:
   - degree: M.S.
