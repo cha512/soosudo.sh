@@ -8,7 +8,7 @@ intro: >
 
 domains:
   - name: Reverse Engineering
-    note: binaries, firmware, and complex protocols
+    note: x86, x86-64, ARM/Thumb-2, and RISC-V assembly
   - name: Vulnerability Research
     note: vulnerability discovery and exploit research across Windows and Android
   - name: Wireless Security
