@@ -1,19 +1,21 @@
 # Edit this file to update your CV. The layout reads everything from here.
 
 intro: >
-  I'm a systems security researcher focused on reverse engineering binaries,
-  firmware, and wireless protocols. I've been active in security research and
-  competitions since 2016.
+  I'm a systems security researcher focused on reverse engineering and
+  vulnerability research across binaries, firmware, wireless systems, and
+  embedded hardware. I often work on undocumented or unsupported targets and
+  build the tooling needed to analyze them. I've been active in security
+  research and competitions since 2016.
 
 domains:
   - name: Reverse Engineering
     note: binaries, firmware, and complex protocols
   - name: Vulnerability Research
-    note: zero-day and exploit research across Windows and Android
+    note: vulnerability discovery and exploit research across Windows and Android
   - name: Wireless Security
-    note: proprietary RF protocols and SDR-based analysis
-  - name: Embedded Systems
-    note: firmware and hardware security
+    note: cellular-derived PHY-layer analysis and proprietary RF protocol reversing
+  - name: Embedded & Hardware Systems
+    note: firmware, RTL, and FPGA-based systems
 
 skills:
   - group: Primary
@@ -29,10 +31,11 @@ work:
     org: ENKI WhiteHat
     period: 2020 - present
     notes:
-      - Lead vulnerability research across binaries, firmware, Windows, Android, and wireless systems
-      - Conduct private zero-day and exploit research
-      - Participated in cyber defense exercises and competitions, including NATO CCDCOE Locked Shields (DFIR track)
-      - Author challenges for CCE, FIESTA, CODEGATE, and WhiteHat Contest
+      - Lead technical research across vulnerability discovery, wireless systems, and embedded hardware
+      - Conduct private zero-day and exploit research across binaries, firmware, Windows, and Android
+      - Build end-to-end research environments for undocumented wireless systems, from raw signal and PHY-layer analysis through protocol-state reconstruction
+      - Build FPGA/RTL prototypes around open-source soft-core SoCs and extensively modified digital interface IP to validate hypotheses
+      - Participate in cyber defense exercises, including Locked Shields (DFIR), and author challenges for major security competitions
 
 education:
   - degree: M.S.
