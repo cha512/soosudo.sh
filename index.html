@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+<header class="masthead">
+  <div class="mast-id">
+    <h1 class="name">{{ site.title }}</h1>
+    <p class="tagline">{{ site.tagline }}</p>
+  </div>
+  <nav class="mast-links">
+    {% if site.github %}<a href="https://github.com/{{ site.github }}">github</a>{% endif %}
+    {% if site.email %}<a href="mailto:{{ site.email }}">email</a>{% endif %}
+    <button class="theme-toggle" id="theme-toggle" type="button">dark</button>
+  </nav>
+</header>
+
+<section class="intro">
+  <p>{{ site.data.cv.intro }}</p>
+</section>
+
+<section class="block" id="domains">
+  <h2 class="block-label"><span class="tick">01</span> focus</h2>
+  <div class="domain-grid">
+    {% for d in site.data.cv.domains %}
+    <div class="domain">
+      <div class="domain-name">{{ d.name }}</div>
+      <div class="domain-note">{{ d.note }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="block" id="work">
+  <h2 class="block-label"><span class="tick">02</span> experience</h2>
+  {% for w in site.data.cv.work %}
+  <div class="row">
+    <div class="row-period">{{ w.period }}</div>
+    <div class="row-body">
+      <div class="row-title">{{ w.role }}</div>
+      <div class="row-org">{{ w.org }}</div>
+      {% if w.notes %}
+      <ul class="row-notes">
+        {% for n in w.notes %}<li>{{ n }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="block" id="achievements">
+  <h2 class="block-label"><span class="tick">03</span> selected achievements</h2>
+  {% for item in site.data.cv.achievements %}
+  <div class="row">
+    <div class="row-period">{{ item.period }}</div>
+    <div class="row-body">
+      <div class="row-title">{{ item.title }}</div>
+      <div class="row-org">{{ item.subtitle }}</div>
+      {% if item.meta %}<div class="row-meta">{{ item.meta }}</div>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="block" id="skills">
+  <h2 class="block-label"><span class="tick">04</span> skills</h2>
+  <div class="skill-groups">
+    {% for group in site.data.cv.skills %}
+    <div class="skill-group">
+      <div class="skill-label">{{ group.group }}</div>
+      <div class="skill-row">
+        {% for item in group.items %}<span class="skill">{{ item }}</span>{% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="block" id="education">
+  <h2 class="block-label"><span class="tick">05</span> education</h2>
+  {% for item in site.data.cv.education %}
+  <div class="row">
+    <div class="row-period">{{ item.degree }}</div>
+    <div class="row-body">
+      <div class="row-title">{{ item.field }}</div>
+      <div class="row-org">{{ item.school }}</div>
+      {% if item.meta %}<div class="row-meta">{{ item.meta }}</div>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<footer class="foot">
+  <span>{{ site.title }}</span>
+  <span class="foot-links">
+    {% if site.github %}<a href="https://github.com/{{ site.github }}">github</a>{% endif %}
+    {% if site.email %}<a href="mailto:{{ site.email }}">email</a>{% endif %}
+  </span>
+</footer>

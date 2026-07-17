@@ -1,0 +1,64 @@
+# Edit this file to update your CV. The layout reads everything from here.
+
+intro: >
+  I'm a systems security researcher focused on reverse engineering binaries,
+  firmware, and wireless protocols. I've been active in security research and
+  competitions since 2016.
+
+domains:
+  - name: Reverse Engineering
+    note: binaries, firmware, and complex protocols
+  - name: Vulnerability Research
+    note: zero-day and exploit research across Windows and Android
+  - name: Wireless Security
+    note: proprietary RF protocols and SDR-based analysis
+  - name: Embedded Systems
+    note: firmware and hardware security
+
+skills:
+  - group: Primary
+    items: [C, Python]
+  - group: Reverse Engineering
+    items: [IDA Pro, x64dbg, WinDbg]
+  - group: Proficient
+    items: [C++]
+  - group: Familiar
+    items: [MATLAB, Verilog]
+work:
+  - role: Security Research Lead
+    org: ENKI WhiteHat
+    period: 2020 - present
+    notes:
+      - Lead vulnerability research across binaries, firmware, Windows, Android, and wireless systems
+      - Conduct private zero-day and exploit research
+      - Participated in cyber defense exercises and competitions, including NATO CCDCOE Locked Shields (DFIR track)
+      - Author challenges for CCE, FIESTA, CODEGATE, and WhiteHat Contest
+
+education:
+  - degree: M.S.
+    field: Computer Science and Engineering
+    school: Kyung Hee University
+    meta: Major in Convergence Security
+  - degree: B.S.
+    field: Computer Science and Engineering
+    school: Pusan National University
+
+achievements:
+  - period: 2019 - 2026
+    title: International CTF Highlights
+    subtitle: Multiple DEF CON CTF Finals appearances, including a 3rd-place finish · Wins at SECCON and PlaidCTF
+  - period: 2022 - 2024
+    title: Domestic Cybersecurity Competitions
+    subtitle: 1st in drone security · 3rd in WhiteHat Contest Adult Division · Special Award in cryptanalysis
+    meta: Awards from the Minister of Science and ICT, Cyber Operations Commander, and Director of the Signal Technology Research Institute
+  - period: 2021 - 2022
+    title: Digital Forensics Competitions
+    subtitle: Multiple awards, including the KDFS Excellence Award
+    meta: Korean National Police Agency Commissioner Award
+  - period: 2019 - 2020
+    title: KISA Vulnerability Hall of Fame
+    subtitle: Annual Top 10 in 2019 and 2020 · Reported RCE, LPE, and DoS vulnerabilities across messaging, media, document, and antivirus software
+  - period: 2016 - 2019
+    title: National Youth Cybersecurity Competitions
+    subtitle: First CTF award in 2016 · Three 1st-place finishes from 2017 to 2019
+    meta: Minister of National Defense and Minister of the Interior and Safety awards
