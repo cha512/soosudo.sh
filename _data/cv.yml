@@ -33,7 +33,7 @@ work:
       - Lead technical research across vulnerability discovery, wireless systems, and embedded hardware
       - Conduct private zero-day and exploit research spanning binaries, firmware, Windows, and Android
       - Build end-to-end research environments for undocumented wireless systems, from raw signal and PHY-layer analysis through protocol-state reconstruction
-      - Develop FPGA/RTL prototypes incorporating extensively modified digital interface IP for hypothesis validation
+      - Develop FPGA/RTL prototypes incorporating modified digital interface IP for hypothesis validation
       - Participate in cyber defense exercises (including Locked Shields, DFIR track) and author challenges for major security competitions
 
 education:
@@ -46,17 +46,17 @@ education:
     school: Pusan National University
 
 achievements:
-  - period: 2019 - 2026
+  - period: 2019 - present
     title: International CTF Highlights
-    subtitle: Multiple DEF CON CTF Finals appearances, including a 3rd-place finish · Wins at SECCON and PlaidCTF
+    subtitle: Multiple DEF CON CTF Finals appearances, including 2nd place in 2026 and a previous 3rd-place finish · Wins at SECCON and PlaidCTF
   - period: 2022 - 2024
     title: Domestic Cybersecurity Competitions
-    subtitle: 1st in drone security · 3rd in WhiteHat Contest Adult Division · Special Award in cryptanalysis
+    subtitle: 1st in the Cybersecurity Challenge · 1st in drone security · 3rd in WhiteHat Contest Adult Division · Special Award in cryptanalysis
     meta: Awards from the Minister of Science and ICT, Cyber Operations Commander, and Director of the Signal Technology Research Institute
   - period: 2021 - 2022
     title: Digital Forensics Competitions
     subtitle: Multiple awards, including the KDFS Excellence Award
-    meta: Korean National Police Agency Commissioner Award
+    meta: Awards from the Commissioner of the National Police Agency and the President of the Korea Institute of Information Security and Cryptology
   - period: 2019 - 2020
     title: KISA Vulnerability Hall of Fame
     subtitle: Annual Top 10 in 2019 and 2020 · Reported RCE, LPE, and DoS vulnerabilities across messaging, media, document, and antivirus software
